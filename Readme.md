@@ -34,3 +34,21 @@ Finalmente para levantar el servicio con nuestra propia imagen:
 
 
 Y ya tendremos nuestro contenedor con el script que hayamos especificado en ejecución en "command: ", en nuestro caso un script de python.
+
+Para subirlo a [DockerHub](https://hub.docker.com/) primeramente debemos ir a nuestro perfil y presionar en "Create repository":
+
+![Imagen](https://i.imgur.com/dWgMmFr.png)
+
+Una vez accedemos seleccionamos el nombre de nuestro repositorio y presionamos en create.
+
+![Imagen2](https://i.imgur.com/XDNq9GP.png)
+
+Una vez tenemos todo creado accedemos a nuestro terminal y ejecutamos la sucesión de estos comandos:
+
+`$ docker-login`
+
+`$ docker tag youtubeimagen:latest ndiazdossantos2023:youtubeimagen`
+
+`$ docker push ndiazdossantos2023/youtubeimagen:latest`
+
+Donde nos autenticamos con nuestra cuenta de docker hub, posteriormente creamos el tag de nuestra imagen y lo vinculamos al repositorio de nuestra cuenta y finalmente realizamos el push del tag creado a nuestra cuenta y con la imagen seleccionada.
