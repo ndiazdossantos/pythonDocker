@@ -52,3 +52,5 @@ Una vez tenemos todo creado accedemos a nuestro terminal y ejecutamos la sucesi√
 `$ docker push ndiazdossantos2023/youtubeimagen:latest`
 
 Donde nos autenticamos con nuestra cuenta de docker hub, posteriormente creamos el tag de nuestra imagen y lo vinculamos al repositorio de nuestra cuenta y finalmente realizamos el push del tag creado a nuestra cuenta y con la imagen seleccionada.
+
+Dando por publicado nuestro repositorio, en mi caso: [```ndiazdossantos2023/youtubeimagen```](https://hub.docker.com/u/ndiazdossantos2023)
