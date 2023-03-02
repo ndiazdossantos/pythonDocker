@@ -47,9 +47,9 @@ Una vez tenemos todo creado accedemos a nuestro terminal y ejecutamos la sucesi√
 
 `$ docker-login`
 
-`$ docker tag youtubeimagen:latest ndiazdossantos2023:youtubeimagen`
+`$ docker tag youtubeimagen:latest ndiazdossantos2023:youtubeimage`
 
-`$ docker push ndiazdossantos2023/youtubeimagen:latest`
+`$ docker push ndiazdossantos2023/youtubeimage:latest`
 
 Donde nos autenticamos con nuestra cuenta de docker hub, posteriormente creamos el tag de nuestra imagen y lo vinculamos al repositorio de nuestra cuenta y finalmente realizamos el push del tag creado a nuestra cuenta y con la imagen seleccionada.
 
