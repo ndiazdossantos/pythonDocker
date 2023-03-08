@@ -45,9 +45,9 @@ Una vez accedemos seleccionamos el nombre de nuestro repositorio y presionamos e
 
 Una vez tenemos todo creado accedemos a nuestro terminal y ejecutamos la sucesión de estos comandos:
 
-`$ docker-login`
+`$ docker login`
 
-`$ docker tag youtubeimagen:latest ndiazdossantos2023:youtubeimage`
+`$ docker tag youtubeimagen:latest ndiazdossantos2023:youtubeimage .` (IMPORTANTE) No olvidarse el punto del final.
 
 `$ docker push ndiazdossantos2023/youtubeimage:latest`
 
