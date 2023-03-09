@@ -45,11 +45,11 @@ Una vez accedemos seleccionamos el nombre de nuestro repositorio y presionamos e
 
 Una vez tenemos todo creado accedemos a nuestro terminal y ejecutamos la sucesión de estos comandos:
 
-`$ docker login`
+`$ docker login` Introducimos los parámetros de cuenta y contraseña de docker hub.
 
-`$ docker tag youtubeimagen:latest ndiazdossantos2023:youtubeimage .` (IMPORTANTE) No olvidarse el punto del final.
+`$ docker tag youtubeimagen:latest ndiazdossantos2023:youtubeimage .` (IMPORTANTE) No olvidarse el punto del final. imagen:version cuentaDockerHub:repositorio
 
-`$ docker push ndiazdossantos2023/youtubeimage:latest`
+`$ docker push ndiazdossantos2023/youtubeimage:latest` cuentaDockerHub/repositorio:version
 
 Donde nos autenticamos con nuestra cuenta de docker hub, posteriormente creamos el tag de nuestra imagen y lo vinculamos al repositorio de nuestra cuenta y finalmente realizamos el push del tag creado a nuestra cuenta y con la imagen seleccionada.
 
