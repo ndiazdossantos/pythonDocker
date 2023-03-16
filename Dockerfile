@@ -1,4 +1,10 @@
 FROM python:3
 
-RUN pip install pytube
+WORKDIR /usr/src/app
 
+COPY requisitos.txt ./
+RUN pip install --no-cache-dir -r requisitos.txt
+
+COPY ./ /usr/src/app
+
+CMD [ "python", "main.py"]
